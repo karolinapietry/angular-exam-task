@@ -1,0 +1,22 @@
+<div class="container">
+  <h3 class="title">Dodaj news</h3>
+  <div class="style-1">
+
+    <label class="style-1 label">
+      Podaj URL obrazka:
+      <input class="style-1 input" type="text" [(ngModel)]="createdImageUrl" />
+    </label>
+    <br>
+    <label class="style-1 label">
+      Podaj tytuł:
+      <input class="style-1 input" type="text" [(ngModel)]="createdTitle" />
+    </label>
+    <br>
+    <label class="style-1 label">
+      Podaj opis:
+      <textarea class="style-1 textarea" type="text" [(ngModel)]="createdDescription"></textarea>
+    </label>
+
+    <button class="button" (click)="addNews()">Dodaj</button>
+  </div>
+</div>

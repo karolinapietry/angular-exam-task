@@ -1,0 +1,20 @@
+<div class="column-left">
+
+  <div *ngIf="news" class="container">
+    <div class="newses">
+
+      <div class="news" [ngStyle]="{ 'background-color': index % 2 == 0 ? '#DCDCDC' : '#C0C0C0'}">
+        <img src="{{ news.imageUrl }}" alt="" class="news img" />
+        <h1 class="header-big">{{ news.title }}</h1>
+        <p class="header-small">{{news.description}}</p>
+        <div class="litleContainer">
+          <h3 class="voteStyle">Głosy: {{news.vote}} </h3>
+
+          <button class="button2" (click)="plus()">W górę</button>
+          <button class="button3" (click)="minus()">W dół</button>
+        </div>
+        <button class="button" (click)="remove()">Usuń newsa</button>
+      </div>
+    </div>
+  </div>
+</div>

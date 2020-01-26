@@ -1,0 +1,69 @@
+.container {
+  width: 25%;
+  background-color: white;
+  padding: 15px;
+  margin: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: lightgray;
+  min-height:200px;
+  position: absolute;
+    top: 137px;
+    right: 45px;
+    width: 240px;
+}
+
+.button {
+    background-color: white;
+    color: #131313;
+    border: 2px solid #4B99AD;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 4px;
+  }
+.button:hover {
+    background-color: #4B99AD;
+    color: white;
+    
+  }
+  .style-1 {
+    margin:10px auto;
+    max-width: 400px;
+    padding: 20px 12px 10px 20px;
+    font-size: 13px;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; 
+  }
+  
+  .style-1 label{
+    margin:0 0 3px 0;
+    color: #131313;
+    padding:0px;
+    display:block;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .style-1 input{
+    background: white;
+    padding: 8px 15px 8px 15px;
+    border: 2px solid #4B99AD;
+    color: rgb(44, 44, 44);
+  }
+  .title{
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  }
+  .style-1 textarea{
+    background: white;
+    padding: 8px 15px 8px 15px;
+    border: 2px solid #4B99AD;
+    color: rgb(44, 44, 44);
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+    resize: none;
+  }
